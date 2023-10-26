@@ -2,6 +2,10 @@
 
 Apache SPARK Up and Running FAST with Docker: https://www.youtube.com/watch?v=Zr_FqYKC6Qc
 
+## Run Docker Desktop
+
+![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/1dae31df-6aaf-496d-bbdb-e695ee16bafb)
+
 ## Build the the Docker images 
 
 docker build -t spark-base:latest ./docker/base
