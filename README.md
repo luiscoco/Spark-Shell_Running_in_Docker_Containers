@@ -32,6 +32,8 @@ val rdd = sc.parallelize(data)
 println("RDD Elements: " + rdd.collect().mkString(", "))
 ```
 
+![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/5d884dde-67c8-44f8-b355-5ab2477e1e1f)
+
 ### Map and Reduce:
 
 ```scala
