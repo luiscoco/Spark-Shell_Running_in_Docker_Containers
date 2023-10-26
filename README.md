@@ -1,6 +1,46 @@
 # Spark_Running_in_Docker_Containers
 
+## Apache Spark
+
 https://hub.docker.com/r/apache/spark
+
+![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_sparkOfficial_image/assets/32194879/a870625b-c87e-410f-91ef-82178fbcc0d5)
+
+Apache Spark™ is a multi-language engine for executing data engineering, data science, and machine learning on single-node machines or clusters. 
+
+It provides high-level APIs in Scala, Java, Python, and R, and an optimized engine that supports general computation graphs for data analysis. 
+
+It also supports a rich set of higher-level tools including Spark SQL for SQL and DataFrames, pandas API on Spark for pandas workloads, MLlib for machine learning, GraphX for graph processing, and Structured 
+
+Streaming for stream processing.
+
+https://spark.apache.org/
+
+### Docker Pull Command: 
+
+```
+docker pull apache/spark
+```
+
+### Interactive Scala Shell
+
+The easiest way to start using Spark is through the Scala shell:
+
+```
+docker run -it apache/spark /opt/spark/bin/spark-shell
+```
+
+Try the following command, which should return 1,000,000,000:
+
+```
+scala> spark.range(1000 * 1000 * 1000).count()
+```
+
+### Running Spark on Kubernetes
+
+https://spark.apache.org/docs/latest/running-on-kubernetes.html
+
+## Spark official Docker image
 
 https://hub.docker.com/_/spark
 
