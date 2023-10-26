@@ -10,7 +10,15 @@ Apache SPARK Up and Running FAST with Docker: https://www.youtube.com/watch?v=Zr
 
 ![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/54a45dc6-383d-47a9-996b-18ac12bed59c)
 
+## Run the Spark Docker container
 
+Type this command to run the Spark docker container
+
+```
+docker run -it spark /opt/spark/bin/spark-shell
+```
+
+![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/3e41806f-2f7d-47f0-a99b-c9d69e1a1cff)
 
 ## Examples
 
