@@ -78,6 +78,8 @@ val joinedRDD = rdd1.join(rdd2)
 println("Joined RDD: " + joinedRDD.collect().mkString(", "))
 ```
 
+![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/6dbcad18-925c-451c-82be-f36abfde3b38)
+
 ### Persisting RDD:
 
 ```scala
