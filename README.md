@@ -52,6 +52,8 @@ val evenRDD = rdd.filter(x => x % 2 == 0)
 println("Even Elements: " + evenRDD.collect().mkString(", "))
 ```
 
+![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/c1776e73-4e25-4ae4-a397-b0fd36517cc6)
+
 ### Read from a text file:
 
 ```scala
