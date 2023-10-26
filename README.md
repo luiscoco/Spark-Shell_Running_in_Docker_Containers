@@ -6,46 +6,9 @@ Apache SPARK Up and Running FAST with Docker: https://www.youtube.com/watch?v=Zr
 
 ![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/1dae31df-6aaf-496d-bbdb-e695ee16bafb)
 
-## Build the the Docker images 
+## Pull Spark Docker images 
 
-docker build -t spark-base:latest ./docker/base
-
-docker build -t spark-master:latest ./docker/spark-master
-
-docker build -t spark-worker:latest ./docker/spark-worker
-
-docker build -t spark-submit:latest ./docker/spark-submit
-
-## Run the docker-compose file
-
-```
-version: "3"
-services:
-  spark-master:
-    image: spark-master:latest
-    ports:
-      - "4040:4040"
-      - "9090:8080"
-      - "7077:7077"
-    volumes:
-       - ./apps:/opt/spark-apps
-       - ./data:/opt/spark-data
-    environment:
-      - "SPARK_LOCAL_IP=spark-master"
-  spark-worker:
-    image: spark-worker:latest
-    depends_on:
-      - spark-master
-    environment:
-      - SPARK_MASTER=spark://spark-master:7077
-      - SPARK_WORKER_CORES=1
-      - SPARK_WORKER_MEMORY=1G
-      - SPARK_DRIVER_MEMORY=128m
-      - SPARK_EXECUTOR_MEMORY=256m
-    volumes:
-       - ./apps:/opt/spark-apps
-       - ./data:/opt/spark-data
-```
+![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/54a45dc6-383d-47a9-996b-18ac12bed59c)
 
 
 
