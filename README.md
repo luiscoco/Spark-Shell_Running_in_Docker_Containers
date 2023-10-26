@@ -87,6 +87,8 @@ squaredRDD.persist()
 println("Squared RDD Elements (after persist): " + squaredRDD.collect().mkString(", "))
 ```
 
+![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/6750f3f6-4882-42fb-a40e-c0fc45e78a54)
+
 ### Custom Function:
 
 ```scala
