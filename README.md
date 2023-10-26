@@ -57,7 +57,7 @@ println("Even Elements: " + evenRDD.collect().mkString(", "))
 ### Read from a text file:
 
 ```scala
-val textFileRDD = sc.textFile("path/to/textfile.txt")
+val textFileRDD = sc.textFile("C:/Users/LEnriquez/3D Objects/Downloads/testFile.txt")
 println("Text File Content: " + textFileRDD.collect().mkString("\n"))
 ```
 
