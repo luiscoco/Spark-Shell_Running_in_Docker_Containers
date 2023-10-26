@@ -24,6 +24,12 @@ docker run -it spark /opt/spark/bin/spark-shell
 
 ![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/3e41806f-2f7d-47f0-a99b-c9d69e1a1cff)
 
+Also see the spark docker image and the spark docker container in Docker Desktop
+
+![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/9aef6202-0f3b-4d67-92dc-00401d7aea97)
+
+![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/d8c0c4f0-3e8d-497d-a667-6b939ab78d58)
+
 ## Examples
 
 Here are a few Scala code snippets that you can run in the Spark shell to perform various operations:
