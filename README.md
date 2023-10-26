@@ -43,6 +43,8 @@ println("Squared RDD Elements: " + squaredRDD.collect().mkString(", "))
 println("Sum of Squared Elements: " + sum)
 ```
 
+![image](https://github.com/luiscoco/Spark-Shell_Running_in_Docker_Containers/assets/32194879/6f3922ef-de14-484b-87e7-b7d0b500d714)
+
 ### Filtering:
 
 ```scala
